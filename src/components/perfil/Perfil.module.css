@@ -1,0 +1,103 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 50px 20px;
+    background-color: #ffffff54;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-shadow: 1px;
+}
+
+.container h1{
+    color: #ffff;
+}
+
+.container ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container ul li button{
+    background-color: #ffffff54;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    text-shadow: 1px;
+    padding: 10px;
+}
+
+.container ul li button:hover{
+    background-color: #ffffff85;
+}
+
+.container ul li img{
+   width: 150px;
+   height: 220px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+#atraso{
+    text-shadow: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 10px 0;
+    width: 80vh;
+    padding: 50px 20px;
+    background-color: #ff000047;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-shadow: 1px;
+}
+
+#quase{
+    text-shadow: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 10px 0;
+    width: 80vh;
+    padding: 50px 20px;
+    background-color: #f0ff4e3c;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-shadow: 1px;
+}
+
+#vence{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 10px 0;
+    width: 80vh;
+    padding: 50px 20px;
+    background-color: #ffffff54;;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.04);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-shadow: 1px;
+}
