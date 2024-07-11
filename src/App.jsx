@@ -6,6 +6,7 @@ import Perfil from "./components/perfil/Perfil";
 import Livro from "./components/book/Livro";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
+import AdminProfile from "./components/perfil/admin/Admin";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
     path: "/livro",
     element: <Livro />,
   },
+  {
+    path: "/admin",
+    element: <AdminProfile />
+  }
 ]);
 
 function App() {

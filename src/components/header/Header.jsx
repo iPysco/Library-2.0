@@ -13,6 +13,9 @@ const Header = () => {
           <li>
             <a href="/perfil">Perfil</a>
           </li>
+          <li>
+            <a href="/admin">ADM</a>
+          </li>
         </ul>
       </nav>
     </div>
